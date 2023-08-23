@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="PgOneExtention"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="9a0be66d-3c32-4c2f-a169-48bebeea1e4a"
+        ClientSideComponentProperties="{&quot;testMessage&quot;:&quot;Test message&quot;}"
+      >
+    </CustomAction>
+</Elements>

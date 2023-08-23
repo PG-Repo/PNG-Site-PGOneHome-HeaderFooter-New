@@ -1,0 +1,676 @@
+    body *{
+    font-family:"Open Sans", sans-serif;
+    
+    }
+    *, input, select, textarea, option, button {
+
+        outline: none!important;
+    
+    }
+    .CanvasZone {
+        max-width: 100%!important;
+    }
+    .ms-DetailsHeader-dropHintCaretStyle{
+        display:none
+    }
+    .ms-fontWeight-semibold{
+        font-weight:600!important;
+    }
+    #ms-searchux-popup-0{
+        display: none!important;
+    }
+    /* [data-automationid='SiteHeaderGroupInfo'] {
+        display: none;
+    }  */
+    [data-automationid="SiteHeaderGroupType"]{
+        display: none;
+    }
+    a[aria-label="Get the mobile app"] {
+        display:none;
+    } 
+    .footer-logo {
+        float: left;
+        margin-left: 1PX;
+        margin-top: 3px;
+    }
+    
+    div[data-sp-placeholder='Bottom'] {
+        background: #003db0;
+        z-index: 1;
+    }
+.sp-placeholder-bottom .ms-SPLegacyFabricBlock {
+    background: #003db0;
+}
+    .footerRow {
+
+        background:#003DB0;
+    width: 95%;
+    margin: auto;
+    }
+    .footer-logo img{
+        height: 26px;
+    }
+    .footerRow *{
+        text-align: right!important;
+        color:white!important;
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 12px;
+    } 
+    .footerBlock {
+        padding-top: 3px;
+        padding-bottom: 3px;
+      }
+      .footer-menu{
+        padding: 9px 14px;
+      }
+      a[aria-label="Get the mobile app"] {
+        display:none;
+    }
+
+/* Auto Suggetion */
+ul.ui-autocomplete.ui-front.ui-menu.ui-widget.ui-widget-content {
+	z-index: 1;
+	background: #fff;
+	color: #333;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 0 0 5px #999;
+	-webkit-box-shadow: 0 0 5px #999;
+	box-shadow: 0 0 5px #999;
+	position: absolute;
+	/* z-index: 9999; */
+	box-sizing: border-box;
+}
+
+.suggestionLi {
+	list-style: none!important;
+	margin: 5px 0px;
+	/* background: #f1f1f1!important; */
+	/* max-width: 350px!important; */
+	cursor: pointer!important;
+}
+.suggetionError{
+    font-style: italic;
+}
+.suggetionError    .suggetionDiv {
+       
+        padding: 0px 2px;
+    }
+.suggestionLi .ms-Icon::before {
+	vertical-align: middle;
+	margin-right: 7px
+}
+
+.suggestionLi i.ms-Icon.ms-Icon--Search {
+	font-weight: 600;
+}
+
+.suggetionDiv {
+	font-size: 13px;
+}
+
+.suggetionDiv i {
+	font-size: 18px;
+}
+
+.suggestionLi a {
+	color: black;
+	display: inline-flex;
+}
+.anchorDiv{
+    color: blue;
+    display: inline-flex;
+}
+.suggestionLi a .urlToShow {
+	color: blue;
+	max-width: 180px;
+	white-space: normal;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	display: contents;
+}
+#searchSuggestion::-ms-clear {display: none;}
+
+.loader {
+	-webkit-animation: spin .5s linear infinite;
+	/* Safari */
+	animation: spin .5s linear infinite;
+}
+.ui-state-focus{
+    background:lightgray!important;
+}
+
+/* Safari */
+
+@-webkit-keyframes spin {
+	0% {
+		-webkit-transform: rotate(0deg);
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+	}
+}
+
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+.ui-menu-item i {
+	margin: 0px 5px!important;
+}
+
+.ui-autocomplete {
+	padding: 0px!important;
+	width: max-content;
+}
+
+span.ui-helper-hidden-accessible {
+	display: none!important;
+}
+
+
+input#searchSuggestion {
+    font-family: inherit;
+    font-size: 14px;
+    flex: 1 0 0px;
+    width: 100%;
+    color: #00000c!important;
+    /* background-color: transparent; */
+    border: 0;
+    border-radius: 2px;
+    padding: 0;
+    height: 100%;
+    outline: none;
+    display: flex;
+    /* text-indent: 10px; */
+    /* float: left; */
+    padding-left: 30px;
+    font-family: inherit;
+
+}
+.mobile #sbcId{
+    width: 50%!important;
+}
+.mobileSearchBar{
+    width: 50%!important;
+}
+.searchSuggestionIcon{
+    position: absolute;
+    top: 8px;
+    left: 6px;
+    font-weight: bold;
+    font-size: 18px;
+}
+/* End Auto Suggetion */
+
+
+
+   
+
+  /* For Mobile device only */
+  body.ms-font-m.mobile .footerRow {
+    bottom: 0;
+    z-index: 1;
+    position:fixed;
+    /* z-index:9; */
+    margin: auto;
+    width: 100%;
+}
+
+  
+    /* body.ms-font-m.mobile div[class*='belowHeader']{
+        padding-top: 80px;
+    } */
+    
+
+
+    /* Video Site Tour */
+    .SiteTourOverlay{
+        z-index:3;
+    }
+    /* iframe#siteTourVideo {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    } */
+    .iFrameCloseButton {
+        position: absolute;
+        color: white;
+        float: right;
+        right: 16%;
+        top: 15%;
+        cursor: pointer;
+        font-size: 19px;
+
+        
+
+    }
+@media screen and (max-width: 800px) {
+
+	/* .SiteTourOverlay > iframe{
+		width: 90%;
+		height: 50%;
+	} */
+	}
+    
+    @media screen and (max-width: 400px) {
+        ul.ui-autocomplete {
+         
+            left: 7%!important;
+            max-width: 300px;
+        }
+    }
+    @media screen and (max-width: 320px) {
+        ul.ui-autocomplete {
+         
+            left: 5%!important;
+            max-width: 295px;
+        }
+    }
+	/* On screens that are 600px wide or less, the background color is olive */
+	@media screen and (max-width: 600px) {
+        .iFrameCloseButton {
+            right: 15%;
+            top: 16%;
+        }
+	 
+	/* .SiteTourOverlay > iframe{
+		width: 80%;
+		height: 50%;
+	} */
+	.footer-menu *{
+		font-size: small;
+    }
+    
+    
+	}
+	@media screen and (max-width: 420px) {
+	
+	.SiteTourOverlay > iframe{
+		width: 60%;
+		height: 40%;
+	}
+	}
+	/* .SiteTourOverlay > iframe{
+		width: 60%;
+		height: 60%;
+	} */
+	/* End Site Tour */
+	@media screen and (max-width: 320px) {
+	 
+		.footer-menu {
+            padding: 9px 0px;
+        }
+		.footer-menu {
+			font-size: x-small;
+		}
+        }
+        
+
+
+
+
+        #overlay {
+            position: fixed; /* Sit on top of the page content */
+            display: none; /* Hidden by default */
+            width: 100%; /* Full width (cover the whole page) */
+            height: 100%; /* Full height (cover the whole page) */
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+            z-index: 99!important; /* Specify a stack order in case you're using a different order for other elements */
+            cursor: pointer; /* Add a pointer on hover */
+          }
+          #overlay > iframe {
+            width: 65%;
+            height: 60%;
+        }
+          #siteTourVideo{
+            -webkit-font-smoothing: antialiased;
+            /* box-shadow: 0 0 5px 0 rgba(0,0,0,.4); */
+            /* background-color: #fff; */
+            /* display: none; */
+            /* height: auto; */
+            /* min-width: 220px; */
+            /* max-width: 340px; */
+            /* padding: 28px 24px; */
+            z-index: 10;
+            position: fixed;
+            transform: translate(-50%,-50%);
+            left: 50%;
+            top: 50%;
+        }
+
+
+        .customHeaderLink{
+            display: inline-flex;
+            /* border-left: 1px solid;
+            border-right: 1px solid; */
+        }
+        .customHeaderLink button{
+            height: 100%;
+            line-height: 50px;
+            display: flex;
+            /* line-height: 48px; */
+            display: block;
+            position: relative;
+            margin: 0;
+            padding: 0;
+            min-width: 48px;
+            border-color: transparent!important;
+            cursor: pointer;
+        }
+
+
+
+
+
+
+
+
+
+
+
+  .ms-membersInfo-infoArea {
+        display: none;
+    } 
+    [data-automationid='SiteHeaderFollowButton'] {
+        display: none;
+    }
+    .customLinkSection div{
+            display: none!important;
+    }
+    .customLinkSection .customLinks{
+            display: block!important;
+    }
+    .customLinks a {
+        display: block;
+        text-decoration: none; 
+        color: #003da5;
+    }
+    .customLinks a:nth-child(1){
+        margin-bottom: 10px;
+    }
+    .customLinks a i{
+        /* display: none; */
+        margin-right: 5px;
+        vertical-align: middle;
+    }
+    .customLinks a span{
+        vertical-align: middle;
+    }
+    .customLinks a i.ms-Icon.ms-Icon--MSNVideos {
+        MARGIN-TOP: -1PX;
+    }
+    [data-automationid=SiteHeader] button{
+        display:none
+    }
+    [data-automationid='SiteHeader'] {
+        padding-right: 11px;
+        padding-left: 11px;
+    }
+    .compactMode{
+        display: block!important;
+        position: relative;
+        bottom: 16px;
+    }
+    @media screen and (max-width: 600px) {
+    
+        .customLinks a span{
+        display: none;
+    }
+    .customLinks a i{
+        display: block;
+       
+    }
+    
+    }
+    .browserWarning-dialog{
+        text-align: center;
+    }
+    .browserWarning i{
+        font-size: 45px;
+        display: block;
+        color: #7F7F7F;
+        text-align: center;
+    } 
+    .browserWarning p{
+        text-align: center;
+    }
+    .browserWarning a{
+text-decoration: none;
+    }
+    .warning-button > div{
+        text-align: center;
+    }
+
+
+    /* Model Popup for Configuration popup */
+    .w3-modal {
+        z-index: 99;
+        display: none;
+        padding-top: 100px;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgb(0,0,0);
+        background-color: rgba(0,0,0,0.4);
+    }
+    .w3-modal-content {
+        margin: auto;
+        background-color: #fff;
+        position: relative;
+        padding: 0;
+        outline: 0;
+        width: auto;
+        -webkit-font-smoothing: antialiased;
+        z-index: 100;
+        /* position: fixed; */
+        transform: translate(-50%,-50%);
+        left: 50%;
+        top: 50%;
+        /* padding: 10px; */
+        text-align: center;
+
+    }
+    .w3-container {
+        padding: 0.01em 16px;
+    }
+    p.FirstTimeUser_LoginSuccessMessage {
+        color: green;
+    }
+    .w3-container input{
+        font-size: 14px;
+    font-weight: 400;
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    vertical-align: top;
+    padding-top: 0px;
+    padding-right: 16px;
+    padding-bottom: 0px;
+    padding-left: 16px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    min-width: 80px;
+    height: 32px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(50, 49, 48);
+    user-select: none;
+    outline: transparent;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(138, 136, 134);
+    border-image: initial;
+    text-decoration: none;
+    border-radius: 0px;
+    }
+
+
+    /* suggestion try */
+
+      .suggestions {
+        border: 1px solid #999;
+        border-top: 0 solid #999;
+        list-style: none;
+        margin-top: 1px;
+        /* max-height: 143px; */
+        padding-left: 0;
+        overflow: auto;
+        width: 100%;
+        background-color: white;
+        z-index: 9;
+        position: absolute;
+    }
+    .no-suggestions {
+        border: 1px solid #999;
+        border-top: 0 solid #999;
+        list-style: none;
+        margin-top: 1px;
+        padding-left: 0;
+        overflow: auto;
+        width: 100%;
+        background-color: white;
+        z-index: 9;
+        position: absolute;
+        font-family: inherit;
+    }
+      
+      .suggestions li {
+        padding: 0.5rem;
+      }
+      
+      .suggestion-active,
+      .suggestions li:hover {
+        background-color: #b6cacf;
+        color: #0f0f0e;
+        cursor: pointer;
+        font-weight: 700;
+      }
+      
+      .suggestions li:not(:last-of-type) {
+        border-bottom: 1px solid #999;
+      }
+
+      label#gearsettings{
+        margin-left: 70%;
+        color: #fff;
+        margin-top: 19px;
+        position: inherit;
+    }
+
+    label#helpsettings {
+        position: absolute;
+        margin-left: 5%;
+        margin-top: 4.6%;
+        color: white !important;
+      
+    }
+
+    span#suggestiontext {
+        font-family: inherit;
+        /* margin-left: 3px; */
+        margin: 8px;
+    }
+      
+    #container_acronym {
+        width: 27px;
+        height: 27px;
+        border-radius: 100%;
+        background: #ffffff1f;
+        border: solid;
+        border-color: white;
+        border-width: thin;
+        margin-left: 85%;
+        margin-top: -6.6%;
+      }
+      #name_acronym {
+        width: 100%;
+        text-align: center;
+        color: #f6f6f6;
+        font-size: 17px;
+       
+      }
+
+      #insidecontainer_acronym {
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+        background: hsl(246deg 9% 90% / 0%);
+        border: solid;
+        border-color: #a98787;
+        border-width: thin;
+        margin-left: 0;
+        margin-top: 2.5%;
+    }
+    #insidename_acronym {
+        width: 100%;
+        text-align: center;
+        color: #171616;
+        font-size: 65px;
+    }
+
+
+    /* .ms-Panel-main {
+        height: 60% !important;   
+    } */
+
+    /* .ms-Panel-scrollableContent {
+        overflow-y: hidden !important;
+    }
+     */
+    label.insidelogo {
+        font-family: SegoeUI-SemiBold-final,Segoe UI Semibold,SegoeUI-Regular-final,Segoe UI,"Segoe UI Web (West European)",Segoe,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,Tahoma,Helvetica,Arial,sans-serif;
+        font-size: 16px;
+        line-height: 48px;
+        -webkit-font-smoothing: antialiased;
+        display: inline-block;
+        color: white;
+    }
+    
+    .ms-bgColor-themeDark{
+    
+        background-color: #0078d4!important;
+    
+    }
+    
+    div#searchsugestion {
+    
+        background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 4px 8px -1px rgb(0 0 0 / 10%);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin-top: 4px;
+    max-width: 100%;
+    max-height: 80vh;
+    overflow-y: auto;
+    z-index: 1000000;
+    overflow-x: hidden;
+    }
+    
+    i#filtersubmit { margin-top: -5%;
+        position: absolute;
+        margin-left: 105%;
+        color: white;
+    }

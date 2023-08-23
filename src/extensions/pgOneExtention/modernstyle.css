@@ -1,0 +1,37 @@
+label.insidelogo {
+    font-family: SegoeUI-SemiBold-final,Segoe UI Semibold,SegoeUI-Regular-final,Segoe UI,"Segoe UI Web (West European)",Segoe,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,Tahoma,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 48px;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    color: white;
+}
+
+.ms-bgColor-themeDark{
+
+    background-color: #0078d4!important;
+
+}
+
+div#searchsugestion {
+
+    background: #fff;
+border-radius: 2px;
+box-shadow: 0 4px 8px -1px rgb(0 0 0 / 10%);
+position: absolute;
+top: 100%;
+left: 0;
+right: 0;
+margin-top: 4px;
+max-width: 100%;
+max-height: 80vh;
+overflow-y: auto;
+z-index: 1000000;
+overflow-x: hidden;
+}
+
+i#filtersubmit { margin-top: -5%;
+    position: absolute;
+    margin-left: 105%;
+    color: white;
+}

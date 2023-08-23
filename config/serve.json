@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://pgone.sharepoint.com/sites/dev-pgone",
+      "customActions": {
+        "9a0be66d-3c32-4c2f-a169-48bebeea1e4a": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "pgOneExtention": {
+      "pageUrl": "https://pgone.sharepoint.com/sites/dev-pgone",
+      "customActions": {
+        "9a0be66d-3c32-4c2f-a169-48bebeea1e4a": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}

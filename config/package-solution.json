@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "PNG-Site-PGOneHome-HeaderAndFooter",
+    "id": "c16b1676-8bba-4fb2-879f-72fd72a9356c",
+    "version": "1.0.0.7",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false,
+    "features": [
+      {
+        "title": "Application Extension - Deployment of custom action.",
+        "description": "Deploys a custom action with ClientSideComponentId association",
+        "id": "a1e79d3c-b837-4996-980c-9428b921709d",
+        "version": "1.0.0.0",
+        "assets": {
+          "elementManifests": [
+            "elements.xml",
+            "ClientSideInstance.xml"
+          ]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/PNG-Site-PGOneHome-HeaderAndFooter.sppkg"
+  }
+}
